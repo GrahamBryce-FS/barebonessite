@@ -1,7 +1,9 @@
+import React from "react";
+
 const Header =  () =>{
     return(
         <nav style={styles.myHeader}>
-            <ul ><a href="#">Home</a></ul>
+            <ul><a href="/">Home</a></ul>
             <ul><a href="#">News</a></ul>
             <ul><a href="#">Contact</a></ul>
             <ul><a href="#">About</a></ul>
