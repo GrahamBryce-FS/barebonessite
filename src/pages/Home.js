@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
-import Posts from "./VR";
+
 
 
 // will turn this blog design into its own component 
