@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/barebonessite/static/js/main.1f30760e.js",
+    "static/js/787.d18bd66e.chunk.js": "/barebonessite/static/js/787.d18bd66e.chunk.js",
+    "index.html": "/barebonessite/index.html",
+    "main.1f30760e.js.map": "/barebonessite/static/js/main.1f30760e.js.map",
+    "787.d18bd66e.chunk.js.map": "/barebonessite/static/js/787.d18bd66e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.1f30760e.js"
+  ]
+}
