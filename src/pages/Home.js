@@ -16,7 +16,7 @@ function Home(){
                     <p>My opinion on AI</p>
                 </div>
 
-                <Link to='/AiBlog'><Button variant="primary">View Blog Post</Button></Link>
+                <Link to='/ai-blog'><Button variant="primary">View Blog Post</Button></Link>
             </div>
 
             <div style={styles.blogPost}>
@@ -25,7 +25,7 @@ function Home(){
                 <div style={styles.blogPostContent}>
                     <p>A look at Cyber Security</p>
                 </div>
-                <Link to='/CyberSecurity'><Button variant="primary">View Blog Post</Button></Link>
+                <Link to='/cyber-security'><Button variant="primary">View Blog Post</Button></Link>
             </div>
             <div style={styles.blogPost}>
                 <h2 style={styles.blogPostTitle}>Virtual Reality</h2>
@@ -33,7 +33,7 @@ function Home(){
                 <div style={styles.blogPostContent}>
                     <p>VR and where it needs to improve</p>
                 </div>
-                <Link to='/VR'><Button variant="primary">View Blog Post</Button></Link>
+                <Link to='/vr'><Button variant="primary">View Blog Post</Button></Link>
             </div>
         </main>
     )

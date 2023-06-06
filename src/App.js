@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/header/Header';
-import Home from './pages/Home';
-import VR from './pages/VR';
-import CyberSecurity from './pages/CyberSecurity';
-import AiBlog from './pages/AiBlog';
+import Home from './pages/home';
+import VR from './pages/vr';
+import CyberSecurity from './pages/cyber-security';
+import AiBlog from './pages/ai-blog';
 
 function App() {
   return (
@@ -12,10 +12,12 @@ function App() {
       <Router> {/* Wrap your routes with the Router component */}
         <Header />
         <Routes>
+          
+          <Route path='/home' element={<Home />} /> 
           <Route path='/' element={<Home />} /> {/* Set the root path */}
-          <Route path='/AiBlog' element={<AiBlog />} />
-          <Route path='/CyberSecurity' element={<CyberSecurity />} />
-          <Route path='/VR' element={<VR />} />
+          <Route path='/ai-blog' element={<AiBlog />} />
+          <Route path='/cyber-security' element={<CyberSecurity />} />
+          <Route path='/vr' element={<VR />} />
         </Routes>
       </Router>
     </div>
